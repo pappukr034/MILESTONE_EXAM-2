@@ -5,6 +5,7 @@ import Button from './components/Button'
 import NavBar from './components/NavBar'
 import UserInput from './components/UserInput'
 import Hero from './components/Hero'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Hero />
         <NavBar />
         <UserInput />
-        
+        <Footer />
       </main>     
     </>
   )

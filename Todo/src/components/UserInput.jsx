@@ -80,7 +80,6 @@ function UserInput() {
              title={ele.title}
              id={ele.id}
              count={ele.count}
-             numOftodo={numOftodo}
              initialStatus={ele.status}
              handleRemove={handleRemove}
              handleStatusUpdate={handleStatusUpdate}

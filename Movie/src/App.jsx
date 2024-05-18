@@ -67,7 +67,7 @@ function App() {
       </form>
        
 
-       <div className=' flex px-7 py-8 justify-center items-center flex-wrap gap-3 space-x-2'>
+       <div className=' flex px-7 py-8 justify-center items-center flex-wrap gap-3 space-x-4 space-y-6'>
       
           {
            allMovie.length>0 &&  allMovie.map((ele,idx)=>{
