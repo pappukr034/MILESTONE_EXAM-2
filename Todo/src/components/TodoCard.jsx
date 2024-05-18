@@ -11,7 +11,7 @@ function TodoCard({ title, initialStatus, handleRemove,handleStatusUpdate,id,cou
     const [newTitle,setNewTitle]=useState(title);
 
     return (
-        <div className={`max-w-sm my-4 bg-white shadow-lg rounded-lg p-6 ${initialStatus=='Completed'?'bg-green-300 duration-300':'bg-white'}`}>
+        <div className={`max-w-sm my-4 bg-white shadow-lg rounded-lg p-6 ${initialStatus==='Completed'?' bg-green-200 duration-200':' bg to-white'}  }`}>
           <div className='flex justify-between items-center'>
              
           <h2 className="text-2xl font-bold mb-2 flex justify-center items-center gap-2">{` ${count+1}. ${title}`}  </h2>

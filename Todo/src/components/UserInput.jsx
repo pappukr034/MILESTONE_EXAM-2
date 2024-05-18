@@ -3,7 +3,6 @@ import Button from './Button'
 import TodoCard from './TodoCard';
 
 function UserInput() {
-    const [numOftodo,setNumOftodo]=useState(0)
     const [input, setInput]=useState("");
     const [isEditable,setIsEditable]=useState(false)
     const [todos,setTodos]=useState([
