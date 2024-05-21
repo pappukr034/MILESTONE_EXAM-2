@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import MovieCard from './components/MovieCard';
 import NavBar from './components/NavBar';
-import ColorRating from './components/ColorRating';
 import Footer from './components/Footer';
 
 function App() {
@@ -21,6 +20,7 @@ function App() {
     Type
     : 
     "movie",
+    posterUrl:'',
     Year
     : 
     "2011",
@@ -28,7 +28,6 @@ function App() {
     : 
     "tt0458339"}])
   let apiUrl
-  const apiKey="359240ae"
   const handleSubmit=(e)=>{
     e.preventDefault();
     apiUrl=`https://www.omdbapi.com/?apikey=359240ae&s=${movieName}`
@@ -73,11 +72,12 @@ function App() {
            allMovie.length>0 &&  allMovie.map((ele,idx)=>{
             return <MovieCard
             key={idx}
-            title={ele.title}
+            title={ele.Title}
             onWatch={handleWatch}
-            poster={ele.Poster}
+            Poster={ele.Poster}
             year={ele.Year}
             Type={ele.Type}
+            posterUrl={ele.posterUrl}
 
           />
           })
