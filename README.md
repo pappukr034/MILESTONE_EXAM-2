@@ -1,6 +1,6 @@
 **Project 1** : **Movie App**
 <br> 
-*Live demo* - [Demo](https://vercel.com/pappu-kumars-projects/milestone-exam-2/516Zas28QziXxC48wuGw4m6dNoZx)
+*Live demo* - [Demo](https://milestone-exam-2.vercel.app/)
 <br> 
 <br> 
 
