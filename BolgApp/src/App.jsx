@@ -40,8 +40,9 @@ const handleAddBlog=()=>{
     console.log(postUrl)
     console.log(title)
     console.log(description)
+    console.log(posterimage)
     const post={
-      posterimage:postUrl,
+      posterimage:posterimage,
       title:title,
       description:description,
       postUrl:postUrl
