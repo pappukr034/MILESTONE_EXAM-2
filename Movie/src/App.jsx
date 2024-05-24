@@ -74,7 +74,7 @@ function App() {
             key={idx}
             title={ele.Title}
             onWatch={handleWatch}
-            Poster={ele.Poster}
+            poster={ele.Poster}
             year={ele.Year}
             Type={ele.Type}
             posterUrl={ele.posterUrl}
